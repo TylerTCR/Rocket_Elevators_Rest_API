@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{DE104850-7ADD-4FF6-B32A-A287718DBEFF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/BuildingsController.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="11" Column="118" />
+      <File FileName="Controllers/BuildingsController.cs" Line="49" Column="35" />
+      <File FileName="Models/BuildingDetail.cs" Line="1" Column="1" />
+      <File FileName="Models/Building.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TodoApi" expanded="True">
+            <Node name="TodoApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BuildingsController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TodoApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

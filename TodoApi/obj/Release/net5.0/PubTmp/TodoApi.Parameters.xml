@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="rocket-elevators-rest-api-1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/armanadibi/Desktop/Test/Rocket_Elevators_REST_API/TodoApi/obj/Release/net5\.0/PubTmp/Out/$" />
+  </parameter>
+</parameters>
