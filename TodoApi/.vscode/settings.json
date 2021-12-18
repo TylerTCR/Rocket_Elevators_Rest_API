@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f81fa6f0-e361-4fd3-ba2e-a8459a60aef5/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/tyler-rocket-elevator",
+    "appService.deploySubpath": "publish"
+}

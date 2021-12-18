@@ -76,5 +76,29 @@ namespace TodoApi.Controllers
             return Ok(buildinglist);
           
         }
+
+        [Produces("application/json")]
+        [HttpGet("{_email}")]
+        public async Task<IActionResult> GetBuildingByCust(string _email)
+        {
+            // Get the customer by the email passed in (the logged in customer)
+            var customer = _context.Customers.Where(b => b.ContactEmail == _email).FirstOrDefault();
+
+            // First get list of all buildings
+            var buildingsList = _context.Buildings;
+
+            List<Building> theirBuildings = new List<Building>();
+            // Go through each building in the buildingsList
+            foreach (var building in buildingsList)
+            {
+                // If the current building's customer id matches _custId...
+                if (building.CustomerId == customer.Id)
+                {
+                    theirBuildings.Add(building); // Add it to the theirBuildings list
+                }
+            }
+            // Return a list of the customer's buildings
+            return Ok(theirBuildings);
+        }
     }
 }
