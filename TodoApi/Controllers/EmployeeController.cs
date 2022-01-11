@@ -18,6 +18,21 @@ namespace TodoApi.Controllers
         {
             _context = context;
         }
+
+        [Produces("application/json")]
+        [HttpGet]
+        public async Task<IActionResult> FindAll()
+        {
+            try
+            {
+                var employees = _context.Employees.ToList();
+                return Ok(employees);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
         
         [Produces("application/json")]
         [HttpGet("{email}")]
