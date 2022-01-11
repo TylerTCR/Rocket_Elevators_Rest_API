@@ -26,12 +26,7 @@ namespace TodoApi.Controllers
             try
             {
                 var employee = _context.Employees.Where(b => b.Email == _email).FirstOrDefault();
-                if (employee.Email == _email) {
-                    return Ok(employee.Email);
-                } else {
-                    return Ok("NotFound");
-                }
-                
+                return Ok(employee.Email);
             }
             catch
             {
